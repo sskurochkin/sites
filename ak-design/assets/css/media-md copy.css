@@ -1,0 +1,18 @@
+@media (max-width: 750px) {
+		section {
+				padding: 50px 0; }
+		.about__body {
+				flex-wrap: wrap;
+				text-align: center;
+				max-height: none; }
+		.about__avatar {
+				height: 300px;
+				margin: 0 auto; }
+				.about__avatar img {
+						display: block; }
+		.about__desc {
+				padding: 25px 25px 0; }
+		.price__auth-watch__info {
+				padding-right: 15px; }
+		.price__auth-watch__image {
+				max-height: none; } }

@@ -1,0 +1,8 @@
+@media (max-width: 580px) {
+		.price__auth-watch {
+				flex-wrap: wrap; }
+		.price__auth-watch__info {
+				padding-right: 0;
+				flex-basis: 100%; }
+		.price__auth-watch__image {
+				max-height: none; } }
