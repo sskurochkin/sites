@@ -1,0 +1,4 @@
+User-agent: *
+Host: www.fotomaker.by
+Disallow: /wex/
+Disallow: /phpmailer/

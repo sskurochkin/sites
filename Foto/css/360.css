@@ -1,0 +1,73 @@
+.threesixty {
+  position: relative;
+  overflow: hidden;
+  /* border: solid 1px #999; */
+  margin: 20px;
+  border-radius: 5px;
+}
+.threesixty .spinner {
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+.threesixty .spinner span {
+  font-family: Arial, "MS Trebuchet", sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+}
+.threesixty .threesixty_images {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.threesixty .threesixty_images img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.threesixty .threesixty_images img.current-image {
+  visibility: visible;
+  width: 100%;
+}
+.threesixty .threesixty_images img.previous-image {
+  visibility: hidden;
+  width: 0;
+}
+.threesixty .nav_bar {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
+  opacity: .7;
+}
+.threesixty .nav_bar a {
+  display: block;
+  width: 30px;
+  height: 25px;
+  float: left;
+  background: url(../../assets/images/sprites.png) no-repeat;
+  background-size: 20px;
+  text-indent: -99999px;
+}
+.threesixty .nav_bar a.nav_bar_previous {
+  background-position: 0 -36px;
+}
+.threesixty .nav_bar a.nav_bar_next {
+  background-position: 0 -52px;
+}
+.threesixty .nav_bar a.nav_bar_play {
+  background-position: 5px 2px;
+}
+.threesixty .nav_bar a.nav_bar_stop {
+  background-position: 5px -21px;
+}
