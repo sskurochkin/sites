@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ,user-scalable=0">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Дизайн интерьера в Минске. Услуги частного дизайнера Ирины Бессмерной">
+    <meta name="keywords" content="дизайн квартир, дизайн интерьера в Минске, дизайн, интерьер, дизайн под ключ">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/design.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+
+
+    <title>Irina</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="./index.html" class="header__logo-link">
+                    <img src="./img/logo.png" alt="" class="logo-pic">
+                </a>
+            </div>
+
+            <div class="header__nav-btn" id="burger-menu">MENU</div>
+            <nav class="header__nav">
+
+                <ul class="header__list" id="menu-list">
+                    <script>
+                        if (window.innerWidth <= 960) {
+                            document.getElementById('menu-list').classList.add('hidden');
+                        }
+                    </script>
+
+                    <li class="header__item">
+                        <a href="./index.html" class="header__link">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./prices.html" class="header__link">Цены</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./index.html#services" class="header__link">Услуги</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./portfolio.html" class="header__link">Портфолио</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./contact.html" class="header__link">Контакты</a>
+                    </li>
+
+                </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                    <span class="header__nav-close-line"></span>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="design">
+            <div class="design-wrapper">
+                <div class="design__title" id="_arrow-anchor">
+                    <h1 class="design__title-title">Мебельный дизайн</h1>
+                    <p class="design__title-text">Благодаря своей команде и проверенным организациям по изготовлению
+                        мебели сможем Вам подобрать или изготовить любую мебель в соответствии с Вашим стилем.
+                        Ниже можете ознакомиться с нашими работами.</p>
+                </div>
+
+                <div class="design__cards">
+                    <div class="arrowtop hidden"></div>
+                    <figure class="design__card-pic">
+                        <a href="#" class="_pic-link design-link"></a>
+                        <img src="./img/17.jpg" class="design__pic-thmb" alt="">
+                    </figure>
+                    <figure class="design__card-pic">
+                        <a href="#" class="_pic-link design-link"></a>
+                        <img src="./img/18.jpg" class="design__pic-thmb" alt="">
+                    </figure>
+                    <figure class="design__card-pic">
+                        <a href="#" class="_pic-link design-link"></a>
+                        <img src="./img/19.jpg" class="design__pic-thmb" alt="">
+                    </figure>
+                    <figure class="design__card-pic">
+                        <a href="#" class="_pic-link design-link"></a>
+                        <img src="./img/20.jpg" class="design__pic-thmb" alt="">
+                    </figure>
+                </div>
+
+                <div class="design-form form-md">
+                    <div class="form">
+                        <form action="#" enctype="multipart/form-data" method="POST" onsubmit="send(event, 'send.php')"
+                            class="form__body" id="form">
+                            <input type="hidden" name="page" value="Дизайн" />
+                            <h5 class="form__title">Оставить заявку</h5>
+                            <div class="form__item _col-item">
+                                <label for="formName" class="form__label _col-label">Ваше имя<span
+                                        class="t-red">*</span></label>
+                                <input type="text" id="formName" name="name" class="form__input _col-input _req">
+                            </div>
+                            <div class="form__item _col-item">
+                                <label for="formEmail" class="form__label _col-label">Электронная почта<span
+                                        class="t-red">*</span></label>
+                                <input type="text" id="formEmail" name="email"
+                                    class="form__input _col-input _req _email">
+                            </div>
+                            <div class="form__item _col-item">
+                                <label for="formMessage" class="form__label _col-label">Опишите вопрос<span
+                                        class="t-red">*</span></label>
+                                <textarea id="formMessage" name="message"
+                                    class="form__input _col-input _req"></textarea>
+                            </div>
+                            <button class="form__button">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-full">
+            <div class="contacts">
+                <a href="tel: +375296137634" class="contacts__link">Tel./Viber/Telegram: <span>+375 29
+                        6137634</span></a>
+                        <a href="mailto:i.bessmertnaya@mail.ru" class="contacts__link">email: <span>i.bessmertnaya@mail.ru</span></a>
+                        <a href="https://www.instagram.com/takoiuzhekot/" class="contacts__link">instagramm:
+                    <span>irinabessmertnaya</span></a>
+            </div>
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="./js/arrow_top.js"></script>
+    <script type="text/javascript" src="./js/form.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>

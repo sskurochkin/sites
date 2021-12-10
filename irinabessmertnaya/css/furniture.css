@@ -1,0 +1,122 @@
+.furniture-wrapper{
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+.furniture{
+    margin-bottom: 30px;
+}
+.furniture__title{
+    width: 60%;
+    text-align: center;
+    margin: 50px auto 80px;
+}
+.furniture__title-title{
+    text-transform: uppercase;
+    font-size: 46px;
+    margin-bottom: 70px;
+}
+.furniture__title-text{
+    font-size: 20px;
+    line-height: 28px;
+}
+.furniture__title-subtitle{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.furniture__cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.furniture__card-pic{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 3;
+}
+.furniture__pic-thmb{
+    transition: linear .5s;
+}
+
+.furniture-link{
+    background-color: #000;
+    opacity: 0;
+    transition: linear .5s;
+    background-image: url(../img/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 10%;
+}
+
+
+.furniture__card-pic:hover .furniture-link{
+    opacity: .75;
+    transform: scale(1.2);
+}
+.furniture__card-pic:hover .furniture__pic-thmb{
+    transform: scale(1.4);
+}
+
+.furniture__benefits{
+    margin-bottom: 60px;
+}
+/* .furniture__benefits-text{
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+} */
+.furniture__card .benefits__card{ 
+    grid-column: span 2;
+}
+
+.prop-list:last-child:after{
+    display: none;
+}
+.furniture__pricelist{
+    margin:0 auto 60px;
+    text-align: center;
+    /* max-width: 320px; */
+}
+.furniture__pricelist-link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: inherit;
+    background-color: rgb(59, 46, 46);
+    color: #c7c7c7;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: linear .2s;
+    margin-bottom: 5px;
+    
+}
+.furniture__pricelist-link:hover{
+    opacity: .7;
+}
+
+
+.furniture__pricelist-desc{
+    text-align: center;
+    font-size: 14px;
+}
+
+.furniture__info-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.furniture-form .form__title{
+    font-size: 24px;
+}
+.furniture-form{
+    flex: 1 0 50%;
+    padding-right: 10px;
+}
+.furniture-pic{
+    flex: 1 0 50%;
+
+}

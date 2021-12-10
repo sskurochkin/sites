@@ -1,0 +1,82 @@
+.portfolio-wrapper{
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+.portfolio{
+    margin-bottom: 30px;
+}
+.portfolio__title{
+    text-align: center;
+    margin: 60px auto;
+}
+.portfolio__title-title{
+    text-transform: uppercase;
+    font-size: 46px;
+    /* margin-bottom: 70px; */
+}
+.portfolio__cards-wrapper{
+    margin-bottom: 50px;
+}
+.portfolio__cards-title{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.flat-link{
+    color: inherit;
+}
+.portfolio__cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+.portfolio__card-pic{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 3;
+    max-height: 350px;
+}
+.portfolio__pic-thmb{
+    position: relative;
+    transition: linear .5s;
+    max-width: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-link{
+    background-color: #000;
+    opacity: 0;
+    transition: linear .5s;
+    background-image: url(../img/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 10%;
+}
+
+
+.portfolio__card-pic:hover .portfolio-link{
+    opacity: .75;
+    transform: scale(1.2);
+}
+.portfolio__card-pic:hover .portfolio__pic-thmb{
+    transform: scale(1.4);
+}
+
+.portfolio-form{
+    padding: 0 30px;
+}
+.portfolio-form .form__title{
+    font-size: 24px;
+}
+.form__title{
+    text-align: center;
+}
+.form__button{
+    display: block;
+    margin: 0 auto;
+}
+
+
+

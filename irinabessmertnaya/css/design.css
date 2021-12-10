@@ -1,0 +1,68 @@
+.design-wrapper{
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+.design{
+    margin-bottom: 30px;
+}
+.design__title{
+    text-align: center;
+    margin: 50px auto 80px;
+}
+.design__title-title{
+    text-transform: uppercase;
+    font-size: 46px;
+    margin-bottom: 70px;
+}
+.design__title-text{
+    margin: 0 auto;
+    width: 85%;
+    font-size: 20px;
+    line-height: 28px;
+}
+.design__cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.design__card-pic{
+    position: relative;
+    overflow: hidden;
+    grid-column: span 3;
+}
+.design__pic-thmb{
+    transition: linear .5s;
+}
+
+.design-link{
+    background-color: #000;
+    opacity: 0;
+    transition: linear .5s;
+    background-image: url(../img/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 10%;
+}
+
+
+.design__card-pic:hover .design-link{
+    opacity: .75;
+    transform: scale(1.2);
+}
+.design__card-pic:hover .design__pic-thmb{
+    transform: scale(1.4);
+}
+
+
+.design-form .form__title{
+    font-size: 24px;
+}
+.form__title{
+    text-align: center;
+}
+.form__button{
+    display: block;
+    margin: 0 auto;
+}

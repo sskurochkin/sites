@@ -1,0 +1,210 @@
+.prices-wrapper{
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+.prices{
+    margin-bottom: 30px;
+}
+.prices__title{
+    padding: 0 80px;
+    text-align: center;
+    margin: 50px auto;
+}
+.prices__title-title{
+    text-transform: uppercase;
+    font-size: 46px;
+    margin-bottom: 70px;
+}
+.prices__title-text{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.prices__props{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.prices__prop{
+    grid-column: span 1;
+    position: relative;
+    max-width: 380px;
+    box-shadow: 0 0 20px rgba(145, 137, 137, 0.7); 
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+.prices__prop-pic{
+    height: 180px;
+}
+
+.prices__prop-desc{
+    position: relative;
+    height: 350px;
+    padding-top: 80px;
+    border-top: 3px solid #494949;
+    background-color: rgb(240, 239, 239);
+}
+.prices__prop-title{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid black;
+    font-weight: 300;
+    padding: 8px 0;
+    font-size: 22px;
+    text-align: center;
+    color: #e8e8e8;
+    border-radius: 2px;
+    background-color: rgb(77, 77, 77);
+}
+.prices__prop-text{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    align-self: flex-start;
+    padding: 5px 5px 5px 15px;
+}
+
+.prices__prop-list{
+    text-align: center;
+}
+.prop-list{
+    line-height: 28px;
+}
+.prices__prop-price{
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.prop-price_title{
+    margin-bottom: 0;
+    padding: 0;
+    line-height: normal;
+}
+.prop-price_value sup{
+    vertical-align: super;
+    font-size: 16px;
+}
+.prop-price_value{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.prices__pricelist{
+    margin:0 auto 40px;
+    overflow-x: scroll;
+}
+/*Таблица с ценами - старт*/
+.pricelist__table{
+    min-width: 600px;
+}
+.table__title{
+    background: #9c9c9c;
+    font-weight: 400;
+    font-size: 18px;
+}
+.table__row{
+    display: flex;
+    min-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+._odd-row{
+    background-color: #e8e8e8;
+}
+._even-row{
+    background-color: #dedede;
+}
+._row-title{
+    background-color: #c7c7c7;
+    font-weight: 400;
+    font-size: 18px;
+}
+._row-subtitle{
+    font-size: 16px;
+    background-color: #c7c7c7;
+    font-weight: 400;
+
+}
+._cell-title:first-of-type{
+    flex: 1 1 50%;
+}
+._cell-title{
+    flex: 1 1 50%;
+}
+.table__cell-first{
+    text-align: left;
+    flex: 1 1 50%;
+    padding-left: 15px;
+}
+.table__cell-first-title{
+    text-align: center;
+    flex: 1 1 50%;
+
+}
+.table__cell{
+    flex: 1 1 12.5%;
+    line-height: normal;
+    align-content: center;
+}
+.table__cell sup{
+    vertical-align: super;
+    font-size: 12px;
+}
+/*Таблица с ценами - конец*/
+
+.prices__pricelist-desc{
+    margin-top: 20px;
+    text-align: center;
+} 
+
+.prices__addserv{
+    margin-bottom: 60px;
+}
+.prices__addserv-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.prices__addserv-text{
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+.subtitle-list{
+    font-size: 18px;
+    padding-left: 50px;
+    list-style-type: disc;
+}
+.addserv-list{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.prices__info-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.prices-form .form__title{
+    font-size: 24px;
+}
+.prices-form{
+    flex: 1 0 50%;
+    padding-right: 10px;
+}
+.prices-pic{
+    flex: 1 0 50%;
+}

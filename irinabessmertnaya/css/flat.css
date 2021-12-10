@@ -1,0 +1,97 @@
+.flat__title{
+    padding: 0 80px;
+    text-align: center;
+    margin: 60px auto 80px;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+.flat__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    margin-bottom: 60px;
+}
+.flat__desc{
+    flex-basis: 33.3333%;
+    padding-right: 30px;    
+    min-width: 0;
+}
+.flat__gallery{
+    flex-basis: 66.6666%;
+}
+
+.flat__desc-quote{
+    margin: 40px 0 40px 50px;
+    font-size: 36px;
+    padding:0 30px 0 30px;
+    border-left: 2px solid #616161;
+
+}
+.quote-author{
+    display: block;
+    margin: 10px 0 0 25px;
+    color: #919191;
+}
+.flat__desc-location{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.location-desc:nth-child(2){
+    margin: 8px 0;
+}
+.flat__desc-slider{
+    min-width: 0;
+    margin-bottom: 40px;
+}
+/*Slider*/
+.flat__desc-slider .slick-dots li{
+    list-style: none;
+}
+
+.flat__desc-slider .slick-dots button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #818181;
+
+}
+.flat__desc-slider .slick-dots li button::before{
+    font-size: 0;
+
+}
+.flat__desc-slider .slick-dots{
+    bottom: -35px;
+}
+.flat__desc-slider .slick-dots .slick-active{
+    opacity: 1;
+}
+.flat__desc-slider .slick-dots .slick-active button{
+    background-color: #818181;
+}
+/*Slider*/
+
+.flat__desc-text{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.flat__pic{
+    display: block;
+    margin-bottom: 15px;
+}
+.flat__pic:last-of-type{
+    margin-bottom: 0;
+}
+.flat-form{
+   padding: 0 40px;
+}
+.flat-form .form__title{
+    font-size: 24px;
+}
+.form__title{
+    text-align: center;
+}
+.form__button{
+    display: block;
+    margin: 0 auto;
+}

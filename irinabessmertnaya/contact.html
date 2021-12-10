@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ,user-scalable=0">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Дизайн интерьера в Минске. Услуги частного дизайнера Ирины Бессмерной">
+    <meta name="keywords" content="дизайн квартир, дизайн интерьера в Минске, дизайн, интерьер, дизайн под ключ">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contacts.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+
+
+    <title>Контактная информация - дизайнер Ирина Бессмертная</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="./index.html" class="header__logo-link">
+                    <img src="./img/logo.png" alt="" class="logo-pic">
+                </a>
+            </div>
+
+            <div class="header__nav-btn" id="burger-menu">MENU</div>
+            <nav class="header__nav">
+
+                <ul class="header__list" id="menu-list">
+                    <script>
+                        if (window.innerWidth <= 960) {
+                            document.getElementById('menu-list').classList.add('hidden');
+                        }
+                    </script>
+
+                    <li class="header__item">
+                        <a href="./index.html" class="header__link">Главная</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./prices.html" class="header__link">Цены</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./index.html#services" class="header__link">Услуги</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="./portfolio.html" class="header__link">Портфолио</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Контакты</a>
+                    </li>
+
+                </ul>
+                <div class="header__nav-close">
+                    <span class="header__nav-close-line"></span>
+                    <span class="header__nav-close-line"></span>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section id="contacts">
+            <div class="contacts-wrapper">
+                <h1 class="contacts__title" id="_arrow-anchor">Контактная информация</h1>
+
+                <div class="contacts__info-wrapper">
+                    <div class="arrowtop hidden"></div>
+                    <div class="contacts-logo">
+                        <a href="./index.html" class="header__logo-link">
+                            <img src="./img/logo.png" alt="" class="contact-logo logo-pic">
+                        </a>
+                    </div>
+                    <div class="contacts-info contacts">
+                        <a href="tel: +375296137634" class="contacts__link">Tel./Viber/Telegram: <span>+375 29
+                                6137634</span></a>
+                        <a href="mailto:i.bessmertnaya@mail.ru" class="contacts__link">email:
+                            <span>i.bessmertnaya@mail.ru</span></a>
+                        <a href="https://www.instagram.com/takoiuzhekot/" class="contacts__link">instagram:
+                            <span>irinabessmertnaya</span></a>
+                    </div>
+                </div>
+                <div class="contacts__info-wrapper">
+                    <div class="contacts-form form-md">
+                        <div class="form">
+                            <form action="#" enctype="multipart/form-data" method="POST"
+                                onsubmit="send(event, 'send.php')" class="form__body" id="form">
+                                <input type="hidden" name="page" value="Контакты" />
+                                <h5 class="form__title">Напишите нам по любому интересующему Вас вопросу - мы ответим
+                                    Вам в ближайшее время.</h5>
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Ваше имя<span
+                                            class="t-red">*</span></label>
+                                    <input type="text" id="formName" name="name" class="form__input _req">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formEmail" class="form__label">Электронная почта<span
+                                            class="t-red">*</span></label>
+                                    <input type="text" id="formEmail" name="email" class="form__input _req _email">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Как мы можем Вам помочь?<span
+                                            class="t-red">*</span></label>
+                                    <textarea id="formMessage" name="message" class="form__input _req"></textarea>
+                                </div>
+                                <button class="form__button">Отправить</button>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contacts-pic">
+                        <img src="./img/contacts-pic.jpg" class="contacts-pic-thmb" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper-full">
+            <div class="contacts">
+                <a href="tel: +375296137634" class="contacts__link">Tel./Viber/Telegram: <span>+375 29
+                        6137634</span></a>
+                <a href="mailto:i.bessmertnaya@mail.ru" class="contacts__link">email:
+                    <span>i.bessmertnaya@mail.ru</span></a>
+                <a href="https://www.instagram.com/takoiuzhekot/" class="contacts__link">instagram:
+                    <span>irinabessmertnaya</span></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="./js/arrow_top.js"></script>
+    <script type="text/javascript" src="./js/form.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>

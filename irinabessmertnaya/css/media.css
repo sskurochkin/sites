@@ -1,0 +1,579 @@
+@media screen and (max-width: 1440px){
+    .intro{
+        height: 55vw;
+        background-size: contain;
+    }
+    /*Prices styles start*/
+    /*Repair styles start*/
+    .repair__title, .furniture__title{
+        width: 85%;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    /*Index styles start*/
+    .intro__title{
+        top: 100px;
+    }
+    .intro__title-main{
+        font-size: 40px;
+    }
+    .intro__title-subtitle{
+        font-size: 24px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    .addserv__card-title{
+        margin-top: 15px;
+    }
+    .works__card-desc{
+        font-size: 16px;
+    }
+    /*Portfolio styles start*/
+
+    /*Prices styles start*/
+    .prices__title{
+        padding: 0 50px;
+    }
+    .prices__title-title{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    /*Furniture styles start*/
+    .furniture__title-text{
+        font-size: 18px;
+    }
+    /*Flat styles start*/
+    .flat__gallery{
+        flex-basis: 60%;
+    }
+    .flat__desc{
+        flex-basis: 40%;
+    }
+}
+
+
+@media screen and (max-width: 960px){
+    /*Index styles start*/
+    body{
+        padding-top: 131px;
+    }
+    #services{
+        top: -250px;
+    }
+    .header__wrapper{
+        flex-direction: column;
+        padding: 30px 20px 5px;
+        align-items: center;
+
+    }
+    .header__logo{
+        align-self: auto;
+        margin-bottom: 15px;
+        width: 150px;
+    }
+    .header__nav-btn{
+        display: block;
+    }
+    .header__list{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header__item, .header__item:last-child{
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    .services__card-title{
+        font-size: 20px;
+    }
+    .services__card-text{
+        font-size: 16px;
+    }
+    .benefits__card{
+        grid-column: span 3;
+    }
+    /*Portfolio styles start*/
+    .portfolio__card-pic{
+        grid-column: span 4;
+    }
+
+    /*Contacts styles start*/
+    .contacts__title{
+        font-size: 40px;
+    }
+    .contacts-form .form__title{
+        font-size: 16px;
+    }
+    .contacts-form .form__label, .contacts-form .form__input{
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    /*Prices styles start*/
+    .prices-wrapper{
+        padding: 0 20px;
+    }
+    .prices__title{
+        margin: 40px auto 50px;
+    }
+    .prices__title-title{
+        font-size: 38px;
+        margin-bottom: 45px;
+    }
+    .prices__title-subtitle{
+        font-size: 28px;
+    }  
+    .prices__prop{
+        grid-column: span 2;
+    }
+
+    /*Consultation styles start*/
+    .consult__card-pic{
+        grid-column: span 6;
+    }
+    /*Visualisation styles start*/
+    .visual__card-pic{
+        grid-column: span 6;
+    }
+    /*Design styles start*/
+    .design__card-pic{
+        grid-column: span 6;
+    }
+    /*Furniture styles start*/
+    .furniture__title{
+        margin: 40px auto 50px;
+    }
+    .furniture__title-title{
+        font-size: 38px;
+        margin-bottom: 45px;
+    }
+    .furniture__title-subtitle{
+        font-size: 28px;
+    }
+    .furniture__benefits{
+        column-gap: 18px;
+        margin-bottom: 40px;
+    }
+    .furniture__card{ 
+        grid-column: span 2;
+    }
+    .furniture__card .benefits__card-desc{ 
+        font-size: 16px;
+    }
+
+    /*Repair styles start*/
+    .repair__title-title{
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+    .repair__prop-title{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .prop-list:last-of-type{
+        margin-bottom: 0;
+    }
+    
+    .repair__prop .repair__prop-text{
+        font-size: 16px;
+    }
+    .repair__prop-pic{
+        margin-bottom: 20px;
+    }
+    /*Flat styles start*/
+    .flat__title{
+        padding: 0 40px;
+        margin: 40px auto 60px;
+        font-size: 38px;
+    }
+    .flat__desc-quote{
+        font-size: 30px;
+        padding: 0 20px;
+    }
+    .flat__gallery{
+        flex-basis: 50%;
+    }
+    .flat__desc{
+        flex-basis: 50%;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px){
+    /*Index styles start*/
+    body{
+        font-size: 18px;
+    }
+    .wrapper-full{
+        width: 90%;
+    }
+    .title-text{
+        font-size: 38px;
+    }
+    .intro__title{
+        top: 35px;
+    }
+    .intro__title-main{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .intro__title-subtitle{
+        width: 100%;
+        font-size: 20px;
+    }
+    .about__card{
+        max-width: 90%;
+    }
+    .works__card{
+        grid-column: span 6;
+    }
+    .works__card-desc{
+        font-size: 26px;
+    }
+    .footer{
+        padding: 50px 0;
+    }
+    /*Portfolio styles start*/ 
+    .portfolio-wrapper{
+        padding: 0 15px;
+    }
+    .portfolio__title{
+        margin: 30px auto;
+    }
+    .portfolio__title-title{
+        font-size: 40px;
+    }
+    .portfolio__cards-title{
+        font-size: 26px;
+    }
+    .portfolio__card-pic{
+        grid-column: span 6;
+    }
+    /*Prices styles start*/
+    /*Furniture styles start*/
+    .furniture__card-pic{
+        grid-column: span 6;
+    }
+    .furniture__benefits{
+        row-gap: 5px;
+        margin-bottom: 40px;
+    }
+    .furniture__card{ 
+        grid-column: span 6;
+    }
+    .furniture__card .benefits__card-desc{
+        width: 60%; 
+    }
+    
+    /*Repair styles start*/
+    
+    .repair__prop{
+        flex: 1 1 100%;
+    }
+    .repair__prop-title{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .repair__prop .repair__prop-text{
+        font-size: 18px;
+    }
+    .repair__prop-pic{
+        margin-bottom: 20px;
+    }
+    .prop-price_value{
+        font-size: 22px;
+    }
+    /*Contacts styles start*/
+    .contacts__title{
+        padding: 0 30px;
+        margin: 30px auto 45px;
+    }
+    .form-md{
+        margin-bottom: 20px;
+        flex: 1 0 100%;
+    }
+    .form__title{
+        text-align: center;
+    }
+    .contacts-form{
+        padding-right: 0;
+    }
+    .contacts-logo{
+        direction: inherit;
+        flex: 1 0 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .contact-logo{
+        margin: auto;
+    }
+    
+    .contacts-info{
+        padding: 25px 0 0;
+        flex: 1 0 100%;
+        border-left: none;
+        border-top: 2px solid #919191;
+    }
+    .contacts-info a{
+       align-self: center;
+    }
+    
+    .contacts-info a:nth-child(2){
+        margin: 5px 0;
+        align-self: center;
+    }
+    .contacts-pic-thmb{
+        display: block;
+        margin: auto;
+    }
+    .form__item{
+        flex-direction: column;
+    }
+    .form__input{
+        flex: 0 0 40px;
+        margin-left: 0;
+    }
+    .form__button{
+        display: block;
+        margin: 0 auto;
+
+    }
+        /*Flat styles start*/
+        .flat__title{
+            padding: 0 40px;
+            margin: 40px auto 20px;
+            font-size: 38px;
+        }
+        .flat__desc-quote{
+            margin-top: 20px;
+        }
+        .flat__gallery{
+            flex-basis: 100%;
+        }
+        .flat__desc{
+            flex-basis: 100%;
+            margin-bottom: 40px;
+            padding: 0;
+        }
+    
+}    
+
+
+
+
+
+
+@media screen and (max-width: 545px){
+    /*Header styles*/
+    body{
+        padding-top: 87px;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header__wrapper{
+        padding-bottom: 20px;
+    }
+
+    /*Index styles start*/
+    .intro, .about, .services, .addserv, .benefits, .works{
+        margin-bottom: 40px;
+    }
+    .title-text{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .arrowtop{
+        width: 35px;
+        height: 35px;
+    }
+    .intro__title-main{
+        font-size: 30px;
+        padding-right: 25px;
+    }
+    .intro__title-subtitle{
+        display: none;
+    }
+    .about__card{
+        max-width: 100%;
+    }
+    .about__card-pic{
+        width: 200px;
+        height: 200px;
+    }
+    .about__card-desc{
+        padding: 10px;
+        min-width: 250px;
+
+    }
+    .services__card{
+        grid-column: span 4;
+    }
+    .benefits__card-desc{
+        font-size: 16px;
+    }
+    /*Portfolio styles start*/ 
+    .portfolio__card-pic{
+        grid-column: span 12;
+    }
+   /*Contacts styles start*/
+   .contacts__title{
+    font-size: 36px;
+    padding: 0 20px;
+    margin: 20px auto 35px;
+    }
+    /*Prices styles start*/
+    .prices__title{
+        padding: 0 25px;
+    }
+    .prices__title-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .prices__prop{
+        grid-column: span 4;
+        margin: 0 auto;
+    }
+    .prices__title-subtitle{
+        font-size: 22px;
+    }
+    .prices__prop-desc{
+        padding-top: 40px;
+        height: 300px;
+    }
+
+    /*Consultation styles start*/
+    .consult-wrapper{
+        padding: 0 20px;
+    }
+    .consult__title{
+        margin: 25px auto 35px;
+    }
+    .consult__title-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .consult__title-text{
+        font-size: 16px;
+    }
+    .consult__card-pic{
+        grid-column: span 12;
+    }
+    .scheme-pic{
+        flex: 1 0 100%;
+        margin-bottom: 20px;
+    }
+    /*Visualisation styles start*/
+    .visual-wrapper{
+        padding: 0 20px;
+    }
+    .visual__title{
+        margin: 25px auto 35px;
+    }
+    .visual__title-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .visual__title-text{
+        font-size: 16px;
+    }
+    .visual__card-pic{
+        grid-column: span 12;
+    }
+    /*Design styles start*/
+    .design-wrapper{
+        padding: 0 20px;
+    }
+    .design__title{
+        margin: 25px auto 35px;
+    }
+    .design__title-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .design__title-text{
+        font-size: 16px;
+    }
+    .design__card-pic{
+        grid-column: span 12;
+    }
+
+
+    /*Furniture styles start*/
+    .furniture__title{
+        margin: 25px auto 35px;
+    }
+    .furniture__title-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .furniture__title-subtitle{
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    .furniture__cards{
+        margin-bottom: 35px;
+    }
+    .furniture__card-pic{
+        grid-column: span 12;
+    }
+    .furniture__benefits{
+        margin-bottom: 30px;
+    }
+    .furniture__card .benefits__card-desc{ 
+        font-size: 16px;
+        width: 90%;
+    }
+    .furniture__pricelist{
+        margin-bottom: 35px;
+    }
+    /*Repair styles start*/
+    .repair-wrapper{
+        padding: 0 25px;
+    }
+    .repair__title{
+        margin: 40px auto 45px;
+    }
+    .repair__title-title{
+        font-size: 30px;
+    }
+    .repair__title-text{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
+    .repair__title-subtitle{
+        font-size: 24px;
+    }
+    .repair__prop{
+        margin-bottom: 35px;
+    }
+    .repair__prop-list{
+        flex: 1 0 210px;
+    }
+    .repair__prop-title{
+        font-weight: 400;
+        font-size: 22px;
+    }
+     /*Flat styles start*/
+     .flat__title{
+        padding: 0 40px;
+        font-size: 32px;
+    }
+    .flat__desc-quote{
+        margin: 20px 0 30px 20px;
+        font-size: 20px;
+    }
+    .flat__desc-location{
+        font-size: 20px;
+    }
+    .flat__desc-text{
+        font-size: 18px;
+    }
+
+}
