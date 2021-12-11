@@ -1,0 +1,20 @@
+.docs__title {
+  margin-bottom: 40px;
+}
+
+.docs__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 -20px;
+  flex-wrap: wrap;
+}
+
+.docs__item {
+  flex: 0 0 200px;
+  margin: 0 20px;
+  background-image: url(../../img/docs_ip_cut.jpg);
+  background-size: 70px 120px;
+  background-position: center center;
+  padding-top: 150px;
+  display: block;
+}
