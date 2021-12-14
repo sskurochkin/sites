@@ -1,0 +1,70 @@
+
+@media (min-width: $mobile) and (orientation: portrait){
+
+.arrow-button {
+
+       width: 100%;
+       max-width: 480px;
+       animation-duration: 2s;
+       animation-name: bouncing;
+       animation-iteration-count: 1s;
+       text-align: center;
+       padding: 15px;
+       z-index: 20000;
+       align-self: flex-end;
+       background: $second-color;
+
+
+}
+
+.arrow-button img{
+
+      width: 30px;
+      height: 7px;
+
+}
+
+@keyframes bouncing {
+
+  from, 20%, 53%, 80%, to {
+
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transform: translate3d(0,0,0);
+
+  }
+
+
+  40%, 43% {
+
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -30px, 0);
+
+  }
+
+  70% {
+
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -15px, 0);
+
+  }
+
+  90% {
+
+        transform: translate3d(0,-4px,0);
+
+  }
+}
+
+}
+
+@media (min-width: $desktop){
+
+  .arrow-button img{
+
+      width: 30px;
+      height: 7px;
+      display: none;
+
+}
+
+}

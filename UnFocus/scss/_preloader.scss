@@ -1,0 +1,337 @@
+
+@media (min-width: $mobile) and (orientation: portrait){
+
+body {
+
+    margin: 0;
+
+}
+
+.preloader {
+    position: absolute;
+    top: 0;
+    background: $first-color;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 30000;
+}
+
+.loader {
+
+    margin: auto;
+    width: 100%;
+    height: 5px;
+    background: $fourth-color;
+    position: relative;
+
+}
+
+.loader:before {
+
+    content: "";
+    position: absolute;
+    background: $eighth-color;
+    width: 0;
+    height: 5px;
+    animation: loader 9s infinite;
+
+}
+
+.close {
+
+    transform: translateX(-100%);
+    transition: all 0.5s;
+
+}
+
+@keyframes loader {
+
+    90% {
+
+        width: 100%;
+        opacity: 1;
+
+    }
+
+    100% {
+
+        width: 100%;
+        opacity: 0;
+
+    }
+
+}
+
+.loader-text{
+
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+.loader-text > div{
+
+    position: absolute;
+    font-size: 4vw;
+    font-weight: bold;
+    color: $sixth-color;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%); 
+    transform: translateX(-50%);
+    
+}
+
+}
+
+@media (min-width: $tablet) and (orientation: portrait){
+
+body {
+
+    margin: 0;
+
+}
+
+.preloader {
+    position: absolute;
+    top: 0;
+    background: $first-color;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 30000;
+}
+
+.loader {
+
+    margin: auto;
+    width: 100%;
+    height: 5px;
+    background: $fourth-color;
+    position: relative;
+
+}
+
+.loader:before {
+
+    content: "";
+    position: absolute;
+    background: $eighth-color;
+    width: 0;
+    height: 5px;
+    animation: loader 9s infinite;
+
+}
+
+
+.close {
+
+    transform: translateX(-100%);
+    transition: all 0.5s;
+
+}
+
+@keyframes loader {
+
+    90% {
+
+        width: 100%;
+        opacity: 1;
+
+    }
+
+    100% {
+
+        width: 100%;
+        opacity: 0;
+
+    }
+
+}
+
+.loader-text{
+
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+.loader-text > div{
+
+    position: absolute;
+    font-size: 5vw;
+    font-weight: bold;
+    color: $sixth-color;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%); 
+    transform: translateX(-50%);
+    
+}
+
+}
+
+@media (min-width: $laptop) and (orientation: landscape){
+
+body {
+
+    margin: 0;
+    overflow-Y: hidden;
+
+}
+
+.preloader {
+
+    position: absolute;
+    top: 0;
+    background: $first-color;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 30000;
+
+}
+
+.loader {
+
+    margin: auto;
+    width: 100%;
+    height: 5px;
+    background: $fourth-color;
+    position: relative;
+
+}
+
+.loader:before {
+
+    content: "";
+    position: absolute;
+    background: $eighth-color;
+    width: 0;
+    height: 5px;
+    animation: loader 9s infinite;
+
+}
+
+
+.close {
+
+    transform: translateX(-100%);
+    transition: all 0.5s;
+
+}
+
+@keyframes loader {
+    90% {
+        width: 100%;
+        opacity: 1;
+    }
+    100% {
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+.loader-text{
+
+    width: 100vh;
+    min-height: 100vh;
+      
+}
+
+.loader-text > div{
+
+    position: absolute;
+    font-size: 4vh;
+    font-weight: bold;
+    color: $sixth-color;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%); 
+    transform: translateX(-50%);
+
+}
+
+}
+
+@media (min-width: $desktop) and (orientation: landscape){
+
+body {
+
+    margin: 0;
+    overflow-Y: hidden;
+
+}
+
+.preloader {
+
+    position: absolute;
+    top: 0;
+    background: $first-color;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 30000;
+
+}
+
+.loader {
+
+    margin: auto;
+    width: 100%;
+    height: 5px;
+    background: $fourth-color;
+    position: relative;
+
+}
+
+.loader:before {
+
+    content: "";
+    position: absolute;
+    background: $eighth-color;
+    width: 0;
+    height: 5px;
+    animation: loader 9s infinite;
+
+}
+
+
+.close {
+
+    transform: translateX(-100%);
+    transition: all 0.5s;
+    
+}
+
+@keyframes loader {
+    90% {
+        width: 100%;
+        opacity: 1;
+    }
+    100% {
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+.loader-text{
+
+    width: auto;
+    min-height: 100vh;
+      
+}
+
+.loader-text > div{
+
+    position: absolute;
+    font-size: 5vh;
+    font-weight: bold;
+    color: $sixth-color;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%); 
+    transform: translateX(-50%);
+
+}
+
+}

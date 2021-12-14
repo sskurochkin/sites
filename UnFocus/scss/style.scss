@@ -1,0 +1,185 @@
+
+@import'./variables';
+
+
+/* reset goes here */
+
+
+@import'./reset';
+
+
+/* style goes here */
+
+
+html {
+
+     scroll-behavior: smooth;
+
+}
+
+a:link, a:visited, a:hover, a:active{
+
+  color: $sixth-color;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+  -o-tap-highlight-color: rgba(0,0,0,0);
+
+}
+
+@media (min-width: $mobile) and (orientation: portrait){
+
+body{
+    
+     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+     font-size: 1em;
+     display: flex;
+     flex-wrap: wrap;
+     min-height: 100vh; 
+     background-color: $seventh-color;
+     text-rendering: optimizeLegibility;
+
+}
+
+hr {
+
+   border: 1px solid $first-color; 
+   border-radius: 0;
+   
+}
+
+}
+
+@media (min-width: $tablet) and (orientation: portrait){
+
+body{
+    
+     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+     font-size: 1em;
+     display: flex;
+     flex-wrap: wrap;
+     min-height: 100vh; 
+     background-color: $seventh-color;
+     text-rendering: optimizeLegibility;
+
+}
+
+hr {
+
+   border: 1px solid $first-color; 
+   border-radius: 0;
+
+}
+
+}
+
+@media (min-width: $laptop) and (orientation: landscape){
+
+body{
+    
+     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+     font-size: 1em;
+     display: flex;
+     flex-wrap: wrap;
+     min-height: 100vh; 
+     background-color: $seventh-color;
+     overflow-y: hidden;
+     text-rendering: optimizeLegibility;
+
+}
+
+hr {
+
+   border: 1px solid #dedddd; 
+   border-radius: 0;
+   margin-top: 30px;
+}
+
+}
+
+@media (min-width: $desktop) and (orientation: landscape){
+
+body{
+    
+     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+     font-size: 1em;
+     display: flex;
+     flex-wrap: wrap;
+     min-height: 100vh; 
+     background-color: $seventh-color;
+     overflow-y: hidden;
+     text-rendering: optimizeLegibility;
+
+}
+
+hr {
+
+   border: 1px solid #dedddd; 
+   border-radius: 0;
+   margin-top: 30px;
+
+}
+
+}
+
+/* page goes here */
+
+
+@import'./pages';
+
+
+/* menu goes here */
+
+@import'./menu';
+@import'./menu-child';
+@import'./menu-photography';
+
+
+/* background goes here */
+
+
+@import'./background';
+@import'./background-child-one';
+@import'./background-child-two';
+
+/* nain goes here */
+
+
+@import'./main';
+
+
+/* footer goes here */
+
+
+@import'./footer';
+@import'./footer-child-one';
+@import'./footer-child-two';
+
+
+/* coming soon page goes here */
+
+
+@import './coming-soon';
+
+
+/* slideshow goes here */
+
+
+@import './slick-slider';
+@import './slick-slider-popup';
+
+
+/* video goes here */
+
+
+@import './video';
+
+
+/* preloader goes here */
+
+@import'./preloader';
+@import'./preloader-photography';
+
+
+
+

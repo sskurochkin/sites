@@ -1,0 +1,1127 @@
+
+@media (min-width: $mobile) and (orientation: portrait){
+
+.header-mobile {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+  
+}
+
+.header-desktop {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 3;
+  text-align: left;
+  display: none;
+  
+}
+
+.header-mobile ul {
+
+  list-style: none;
+  overflow: hidden;
+  background-color: $first-color;
+
+}
+
+.header-mobile ul a{
+
+  display: block;
+  padding-top: 20px;
+
+}
+
+.text-header {
+
+  color: $sixth-color;
+
+}
+
+.text-header a {
+
+  color: $sixth-color;
+
+}
+
+.name {
+
+  display: inline-block;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.name img {
+
+  width: 1em;
+  height: 1em;
+
+}
+
+.mail {
+
+  display: inline-block;
+  float: right;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.mail img {
+
+  width: 1.4em;
+  height: 1.4em;
+
+}
+
+.header-mobile .contact-button {
+
+  display: none;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 17px 30px;
+
+}
+
+
+/* menu */
+
+
+.menu {
+
+  clear: both;
+  max-height: 0px;
+  -webkit-transition: max-height .2s ease-out;
+  -moz-transition: max-height .2s ease-out;
+  -o-transition: max-height .2s ease-out;
+  transition: max-height .2s ease-out;
+  width: 100%;
+  text-align: center;
+
+}
+
+.text-menu {
+
+  font-size: 0.8em;
+  color: $ninth-color;
+  padding-top: 45px;
+
+}
+
+.text-sub-menu{ 
+
+  font-size: 0.8em;
+  color: $sixth-color;
+  line-height: 200%;
+
+}
+
+.menu-item-one{
+
+  width: 100%;
+  border: 0.1em solid $fourth-color;
+  border-width: 0.1em 0em;
+  height: 150px;
+  
+}
+
+.menu-item-two{
+
+  width: 100%;
+  border: 0em solid $fourth-color;
+  border-width: 0em 0em;
+  height: 500px;
+  
+}
+
+/* menu icon */
+
+
+.menu-icon {
+
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  user-select: none;
+  z-index: 100;
+  float: left;
+
+}
+
+.header-mobile .menu-icon .nav-icon {
+
+  background: $sixth-color;
+  display: block;
+  height: 1px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 39px;
+
+}
+
+.header-mobile .menu-icon .nav-icon:before {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-mobile .menu-icon .nav-icon:after {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-mobile .menu-icon .nav-icon:before {
+
+  top: 5px;
+
+}
+
+.header-mobile .menu-icon .nav-icon:after {
+
+  top: -5px;
+
+}
+
+
+/* menu btn */
+
+
+.header-mobile .menu-btn {
+
+  display: none;
+
+}
+
+.header-mobile .menu-btn:checked ~ .menu {
+
+  min-height: 100vh;
+
+}
+
+.menu-desktop {
+
+  width: 100%;
+  font-size: 0.8em;
+  display: none;
+
+}
+
+.menu-desktop-button {
+ 
+  color: white;
+  padding: 17px 30px;
+  border: none;
+  background-color: #000;
+
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  
+}
+
+.dropdown-content a {
+
+  color: white;
+  padding: 7px 30px;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+
+  background-color: #000;
+
+}
+
+}
+
+@media (min-width: $tablet) and (orientation: portrait){
+
+.header-mobile {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+  
+}
+
+.header-desktop {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 3;
+  text-align: left;
+  display: none;
+  
+}
+
+.header-mobile ul {
+
+  list-style: none;
+  overflow: hidden;
+  background-color: $first-color;
+
+}
+
+.header-mobile ul a{
+
+  display: block;
+  padding-top: 20px;
+
+}
+
+.text-header {
+
+  color: $sixth-color;
+
+}
+
+.text-header a {
+
+  color: $sixth-color;
+
+}
+
+.name {
+
+  display: inline-block;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.name img {
+
+  width: 1em;
+  height: 1em;
+
+}
+
+.mail {
+
+  display: inline-block;
+  float: right;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.mail img {
+
+  width: 1.4em;
+  height: 1.4em;
+
+}
+
+.header-mobile .contact-button {
+
+  display: none;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 17px 30px;
+
+}
+
+
+/* menu */
+
+
+.menu {
+
+  clear: both;
+  max-height: 0px;
+  -webkit-transition: max-height .2s ease-out;
+  -moz-transition: max-height .2s ease-out;
+  -o-transition: max-height .2s ease-out;
+  transition: max-height .2s ease-out;
+  width: 100%;
+  text-align: center;
+
+}
+
+.text-menu {
+
+  font-size: 1em;
+  color: $ninth-color;
+  padding-top: 45px;
+
+}
+
+.text-sub-menu{ 
+
+  font-size: 1em;
+  color: $sixth-color;
+  line-height: 200%;
+
+}
+
+.menu-item-one{
+
+  width: 100%;
+  border: 0.1em solid $fourth-color;
+  border-width: 0.1em 0em;
+  height: 150px;
+  
+}
+
+.menu-item-two{
+
+  width: 100%;
+  border: 0em solid $fourth-color;
+  border-width: 0em 0em;
+  height: 500px;
+  
+}
+
+/* menu icon */
+
+
+.menu-icon {
+
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  user-select: none;
+  z-index: 100;
+  float: left;
+
+}
+
+.header-mobile .menu-icon .nav-icon {
+
+  background: $sixth-color;
+  display: block;
+  height: 1px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 39px;
+
+}
+
+.header-mobile .menu-icon .nav-icon:before {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-mobile .menu-icon .nav-icon:after {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-mobile .menu-icon .nav-icon:before {
+
+  top: 5px;
+
+}
+
+.header-mobile .menu-icon .nav-icon:after {
+
+  top: -5px;
+
+}
+
+
+/* menu btn */
+
+
+.header-mobile .menu-btn {
+
+  display: none;
+
+}
+
+.header-mobile .menu-btn:checked ~ .menu {
+
+  min-height: 100vh;
+
+}
+
+.menu-desktop {
+
+  width: 100%;
+  font-size: 0.8em;
+  display: none;
+
+}
+
+.menu-desktop-button {
+ 
+  color: white;
+  padding: 17px 30px;
+  border: none;
+  background-color: #000;
+
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  
+}
+
+.dropdown-content a {
+
+  color: white;
+  padding: 7px 30px;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+
+  background-color: #000;
+
+}
+
+}
+
+@media (min-width: $laptop) and (orientation: landscape){
+
+.header-mobile {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  max-width: 480px;
+  z-index: 3;
+  text-align: center;
+  display: none;
+  
+}
+
+.header-desktop {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 3;
+  text-align: left;
+  
+}
+
+.header-desktop ul {
+
+  list-style: none;
+  overflow: hidden;
+  background-color: $first-color;
+  display: none;
+
+}
+
+.header-desktop ul a{
+
+  display: block;
+  padding-top: 20px;
+  display: none;
+
+
+}
+
+.text-header {
+
+  color: $sixth-color;
+
+}
+
+.text-header a {
+
+  color: $sixth-color;
+
+}
+
+.name {
+
+  display: none;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-align: center;
+  padding: 17px 30px;
+
+}
+
+.name img {
+
+  width: 1em;
+  height: 1em;
+
+}
+
+.mail {
+
+  display: none;
+  float: right;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 17px 30px;
+
+}
+
+.mail img {
+
+  width: 1.4em;
+  height: 1.4em;
+
+}
+
+
+.header-mobile .contact-button {
+
+  display: inline-block;
+  float: right;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 17px 30px;
+
+}
+
+
+/* menu */
+
+
+.menu {
+
+  clear: both;
+  max-height: 0px;
+  -webkit-transition: max-height .2s ease-out;
+  -moz-transition: max-height .2s ease-out;
+  -o-transition: max-height .2s ease-out;
+  transition: max-height .2s ease-out;
+  width: 100%;
+  text-align: left;
+  
+
+}
+
+.text-menu {
+
+  font-size: 0.8em;
+  color: $ninth-color;
+  padding-top: 45px;
+
+}
+
+.text-sub-menu{ 
+
+  font-size: 0.8em;
+  color: $sixth-color;
+  line-height: 200%;
+
+}
+
+.menu-item-one{
+
+  width: 100%;
+  max-width: 480px;
+  border: 0.1em solid $fourth-color;
+  border-width: 0.1em 0em;
+  height: 150px;
+  
+}
+
+.menu-item-two{
+
+  width: 100%;
+  max-width: 480px;
+  border: 0em solid $fourth-color;
+  border-width: 0em 0em;
+  height: 500px;
+  
+}
+
+
+/* menu icon */
+
+
+.menu-icon {
+
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  user-select: none;
+  z-index: 100;
+  float: left;
+  display: none;
+
+}
+
+.header-child .menu-icon .nav-icon {
+
+  background: $sixth-color;
+  display: block;
+  height: 1px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 39px;
+
+}
+
+.header-child .menu-icon .nav-icon:before {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-child .menu-icon .nav-icon:after {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-child .menu-icon .nav-icon:before {
+
+  top: 5px;
+
+}
+
+.header-child .menu-icon .nav-icon:after {
+
+  top: -5px;
+
+}
+
+
+/* menu btn */
+
+
+.header-child .menu-btn {
+
+  display: none;
+
+}
+
+.header-child .menu-btn:checked ~ .menu {
+
+  min-height: 100vh;
+
+}
+
+.menu-desktop-button {
+ 
+  color: white;
+  padding: 17px 30px;
+  border: none;
+  font-size: 0.8em;
+
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  font-size: 0.8em;
+  
+}
+
+.dropdown-content a {
+
+  color: white;
+  padding: 5px 30px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown a:hover {
+
+  color: $eighth-color;
+
+}
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+}
+
+@media (min-width: $desktop) and (orientation: landscape){
+
+.header-mobile {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  max-width: 480px;
+  z-index: 3;
+  text-align: center;
+  display: none;
+  
+}
+
+.header-desktop {
+
+  background-color: $first-color;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 3;
+  text-align: left;
+  
+}
+
+.header-desktop ul {
+
+  list-style: none;
+  overflow: hidden;
+  background-color: $first-color;
+  display: none;
+
+}
+
+.header-desktop ul a{
+
+  display: block;
+  padding-top: 20px;
+  display: none;
+
+
+}
+
+.text-header {
+
+  color: $sixth-color;
+
+}
+
+.text-header a {
+
+  color: $sixth-color;
+
+}
+
+.name {
+
+  display: none;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-align: center;
+  padding: 17px 30px;
+
+}
+
+.name img {
+
+  width: 1em;
+  height: 1em;
+
+}
+
+.mail {
+
+  display: none;
+  float: right;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 17px 30px;
+
+}
+
+.mail img {
+
+  width: 1.4em;
+  height: 1.4em;
+
+}
+
+
+.header-mobile .contact-button {
+
+  display: inline-block;
+  float: right;
+  font-size: 0.8em;
+  text-decoration: none;
+  padding: 17px 30px;
+
+}
+
+
+/* menu */
+
+
+.menu {
+
+  clear: both;
+  max-height: 0px;
+  -webkit-transition: max-height .2s ease-out;
+  -moz-transition: max-height .2s ease-out;
+  -o-transition: max-height .2s ease-out;
+  transition: max-height .2s ease-out;
+  width: 100%;
+  text-align: left;
+  
+
+}
+
+.text-menu {
+
+  font-size: 0.8em;
+  color: $ninth-color;
+  padding-top: 45px;
+
+}
+
+.text-sub-menu{ 
+
+  font-size: 0.8em;
+  color: $sixth-color;
+  line-height: 200%;
+
+}
+
+.menu-item-one{
+
+  width: 100%;
+  max-width: 480px;
+  border: 0.1em solid $fourth-color;
+  border-width: 0.1em 0em;
+  height: 150px;
+  
+}
+
+.menu-item-two{
+
+  width: 100%;
+  max-width: 480px;
+  border: 0em solid $fourth-color;
+  border-width: 0em 0em;
+  height: 500px;
+  
+}
+
+
+/* menu icon */
+
+
+.menu-icon {
+
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  user-select: none;
+  z-index: 100;
+  float: left;
+  display: none;
+
+}
+
+.header-child .menu-icon .nav-icon {
+
+  background: $sixth-color;
+  display: block;
+  height: 1px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 39px;
+
+}
+
+.header-child .menu-icon .nav-icon:before {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-child .menu-icon .nav-icon:after {
+
+  background: $sixth-color;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.header-child .menu-icon .nav-icon:before {
+
+  top: 5px;
+
+}
+
+.header-child .menu-icon .nav-icon:after {
+
+  top: -5px;
+
+}
+
+
+/* menu btn */
+
+
+.header-child .menu-btn {
+
+  display: none;
+
+}
+
+.header-child .menu-btn:checked ~ .menu {
+
+  min-height: 100vh;
+
+}
+
+.menu-desktop-button {
+ 
+  color: white;
+  padding: 17px 30px;
+  border: none;
+  font-size: 0.8em;
+
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  font-size: 0.8em;
+  
+}
+
+.dropdown-content a {
+
+  color: white;
+  padding: 5px 30px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown a:hover {
+
+  color: $eighth-color;
+
+}
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+}
+

@@ -1,0 +1,28 @@
+
+*, *::before, *::after{
+
+	box-sizing: border-box;
+
+}
+
+:root {
+
+	--bar-color: $first-color;
+	--width: 0;
+}
+
+body::before {
+
+	content: "";
+	display: block;
+	height: 3px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: var(--bar-color);
+	width: calc(var(--width)*1vw);
+
+}
+
+
+

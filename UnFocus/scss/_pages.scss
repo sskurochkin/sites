@@ -1,0 +1,913 @@
+
+@media (min-width: $mobile) and (orientation: portrait){
+  
+.main-title-contact{
+
+     width: 100%;
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     text-align: center;
+
+}
+
+.contact{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+
+}
+
+.contact-item-one{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: center;
+       padding-right: 30px;
+       padding-left: 30px;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: center;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-three{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: center;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two a{
+
+       color: $eighth-color;
+
+}
+
+.contact-item-three a{
+
+       color: $eighth-color;
+       
+}
+
+.main-title-team-mobile{
+
+     width: 100%;
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     text-align: center;
+
+}
+
+.main-title-team-desktop{
+
+     width: 100%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     display: none;
+  
+}
+
+.main-title-team-desktop > div{
+
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     margin: 0 auto;
+     background-color: $second-color;
+     display: none;
+
+}
+
+.team-mobile{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+
+}
+
+.team-photography{
+
+     width: 100%;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-top: 5%;
+
+}
+
+.team-photography img{
+
+     max-width: 100%;
+     object-fit: cover;
+
+}
+    
+.team-item{
+     
+     width: 100%;
+     font-size: 0.8em;
+     color: $ninth-color;
+     padding-top: 1em;
+     padding-bottom: 3em;
+     text-align: center;
+     
+}
+
+.team-desktop{
+
+  width: 100%;
+  max-width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 50px 600px 600px;
+  grid-template-columns: 550px 550px 550px;
+  grid-template-areas: 
+  "area1 area1"
+  "area2 area3";
+  display: none;
+
+}
+
+.team-photography-one{
+
+  position: relative;
+  grid-area: area1;
+  display: none;
+
+}
+
+.team-photography-two{
+
+  position: relative;
+  grid-area: area2;
+  display: none;
+
+}
+
+.team-photography-two img{
+
+  width: 550px;
+  height: 600px;
+  display: none;
+
+}
+
+.team-photography-three{
+
+  position: relative;
+  grid-area: area3;
+  display: none;
+
+}
+
+.team-photography-three img{
+
+  width: 550px;
+  height: 600px;
+  display: none;
+
+}
+
+.overlay-text {
+
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  height: 100px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-align: center;
+  display: none;
+
+}
+
+.team-photography-two:hover .overlay-text {
+
+  opacity: 1;
+  display: none;
+
+}
+
+.team-photography-three:hover .overlay-text {
+
+  opacity: 1;
+  display: none;
+
+}
+
+}
+
+@media (min-width: $tablet) and (orientation: portrait){
+  
+.main-title-contact{
+
+     width: 100%;
+     font-size: 1.1em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     text-align: center;
+
+}
+
+.contact{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+
+}
+
+.contact-item-one{
+
+       font-size: 1.1em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: center;
+       padding-right: 50px;
+       padding-left: 50px;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two{
+
+       font-size: 1.1em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: center;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-three{
+
+       font-size: 1.1em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: center;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two a{
+
+       color: $eighth-color;
+
+}
+
+.contact-item-three a{
+
+       color: $eighth-color;
+       
+}
+
+.main-title-team-mobile{
+
+     width: 100%;
+     font-size: 1.1em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     text-align: center;
+
+}
+
+.main-title-team-desktop{
+
+     width: 100%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     display: none;
+  
+}
+
+
+.main-title-team-desktop > div{
+
+     font-size: 0.9em;
+     color: $ninth-color;
+     font-weight: bold;
+     margin: 0 auto;
+     background-color: $second-color;
+     display: none;
+
+}
+
+
+.team-mobile{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+      
+}
+
+.team-photography{
+
+     width: 100%;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 5%;
+
+}
+
+.team-photography img{
+
+     max-width: 100%;
+     object-fit: cover;
+
+}
+    
+.team-item{
+     
+     width: 100%;
+     font-size: 1em;
+     color: $ninth-color;
+     padding-top: 1em;
+     padding-bottom: 3em;
+     text-align: center;
+     
+}
+
+.team-desktop{
+
+  width: 100%;
+  max-width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 50px 600px 600px;
+  grid-template-columns: 550px 550px 550px;
+  grid-template-areas: 
+  "area1 area1"
+  "area2 area3";
+  display: none;
+
+}
+
+.team-photography-one{
+
+  position: relative;
+  grid-area: area1;
+  display: none;
+
+}
+
+.team-photography-two{
+
+  position: relative;
+  grid-area: area2;
+  display: none;
+
+}
+
+.team-photography-two img{
+
+  width: 550px;
+  height: 600px;
+  display: none;
+
+}
+
+.team-photography-three{
+
+  position: relative;
+  grid-area: area3;
+  display: none;
+
+}
+
+.team-photography-three img{
+
+  width: 550px;
+  height: 600px;
+  display: none;
+
+}
+
+.overlay-text {
+
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  height: 100px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-align: center;
+  display: none;
+
+}
+
+.team-photography-two:hover .overlay-text {
+
+  opacity: 1;
+  display: none;
+
+}
+
+.team-photography-three:hover .overlay-text {
+
+  opacity: 1;
+  display: none;
+
+}
+
+}
+
+@media (min-width: $laptop) and (orientation: landscape){
+
+.main-title-contact{
+
+     width: 100%;
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     padding-left: 30px;
+     text-align: left;
+
+}
+
+.contact{
+
+       display: flex;
+       flex-direction: column;
+       align-items: left;
+       width: 100%;
+       background: $seventh-color;
+
+}
+
+.contact-item-one{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: left;
+       padding-left: 30px;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: left;
+       padding-left: 30px;
+       padding-bottom: 30px;
+
+
+}
+
+.contact-item-three{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: left;
+       padding-left: 30px;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two a{
+
+       color: $eighth-color;
+
+}
+
+.contact-item-three a{
+
+       color: $eighth-color;
+       
+}
+
+.main-title-team-mobile{
+
+     width: 100%;
+     max-width: 480px;
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     text-align: center;
+     display: none;
+
+}
+
+.main-title-team-desktop{
+
+     width: 100%;
+     width: 1100px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+  
+}
+
+.main-title-team-desktop > div{
+
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     margin: 0 auto;
+     background-color: $fourth-color;
+
+}
+
+.team-desktop{
+
+  width: 100vw;
+  max-width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 50px 600px 600px;
+  grid-template-columns: 550px 550px 550px;
+  grid-template-areas: 
+  "area1 area1"
+  "area2 area3";
+  padding-top: 8%;
+  padding-bottom: 10%;
+
+}
+
+.team-photography-one{
+
+  position: relative;
+  grid-area: area1;
+  background-color: $fourth-color;
+
+}
+
+.team-photography-two{
+
+  position: relative;
+  grid-area: area2;
+  text-align: center;
+  background-color: $first-color;
+
+}
+
+.team-photography-two img{
+
+  max-height: 100%;
+  object-fit: cover;
+
+}
+
+.team-photography-three{
+
+  position: relative;
+  grid-area: area3;
+  text-align: center;
+  background-color: $first-color;
+
+}
+
+.team-photography-three img{
+
+  max-height: 100%;
+  object-fit: cover;
+
+}
+
+.team-mobile{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+       max-width: 480px;
+       background: $second-color;
+       display: none;
+
+}
+
+.team-photography{
+
+     width: 100%;
+     max-width: 350px;
+     padding-top: 5%;
+     display: none;
+
+}
+     
+.team-item{
+     
+     width: 100%;
+     max-width: 350px;
+     font-size: 0.8em;
+     color: $ninth-color;
+     padding-top: 1em;
+     padding-bottom: 3em;
+     text-align: center;
+     display: none;
+     
+}
+
+.overlay-text {
+
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  height: 100px;
+  transition: .5s ease;
+  opacity: 0;
+  font-size: 0.8em;
+  color: $second-color;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.team-photography-two:hover .overlay-text {
+
+  opacity: 1;
+
+}
+
+.team-photography-three:hover .overlay-text {
+
+  opacity: 1;
+
+}
+
+}
+
+@media (min-width: $desktop) and (orientation: landscape){
+
+.main-title-contact{
+
+     width: 100%;
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     padding-left: 30px;
+     text-align: left;
+
+}
+
+.contact{
+
+       display: flex;
+       flex-direction: column;
+       align-items: left;
+       width: 100%;
+
+}
+
+.contact-item-one{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: left;
+       padding-left: 30px;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: left;
+       padding-left: 30px;
+       padding-bottom: 30px;
+
+
+}
+
+.contact-item-three{
+
+       font-size: 0.9em;
+       line-height: 1.3em;
+       color: $sixth-color;
+       text-align: left;
+       padding-left: 30px;
+       padding-bottom: 30px;
+
+}
+
+.contact-item-two a{
+
+       color: $eighth-color;
+
+}
+
+.contact-item-three a{
+
+       color: $eighth-color;
+
+}
+
+.main-title-team-mobile{
+
+     width: 100%;
+     max-width: 480px;
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     padding-top: 100px;
+     padding-bottom: 30px;
+     text-align: center;
+     display: none;
+
+}
+
+.main-title-team-desktop{
+
+     width: 100%;
+     width: 1100px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+  
+}
+
+.main-title-team-desktop > div{
+
+     font-size: 0.9em;
+     color: $sixth-color;
+     font-weight: bold;
+     margin: 0 auto;
+     background-color: $fourth-color;
+
+}
+
+.team-desktop{
+
+  width: 100vw;
+  max-width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 50px 600px 600px;
+  grid-template-columns: 550px 550px 550px;
+  grid-template-areas: 
+  "area1 area1"
+  "area2 area3";
+  padding-top: 8%;
+  padding-bottom: 10%;
+
+}
+
+.team-photography-one{
+
+  position: relative;
+  grid-area: area1;
+  background-color: $fourth-color;
+
+}
+
+.team-photography-two{
+
+  position: relative;
+  grid-area: area2;
+  text-align: center;
+  background-color: $first-color;
+
+}
+
+.team-photography-two img{
+
+  max-height: 100%;
+  object-fit: cover;
+
+}
+
+.team-photography-three{
+
+  position: relative;
+  grid-area: area3;
+  text-align: center;
+  background-color: $first-color;
+
+}
+
+.team-photography-three img{
+
+  max-height: 100%;
+  object-fit: cover;
+
+}
+
+.team-mobile{
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+       max-width: 480px;
+       background: $second-color;
+       display: none;
+
+}
+
+.team-photography{
+
+     width: 100%;
+     max-width: 350px;
+     padding-top: 5%;
+     display: none;
+
+}
+     
+.team-item{
+     
+     width: 100%;
+     max-width: 350px;
+     font-size: 0.8em;
+     color: $ninth-color;
+     padding-top: 1em;
+     padding-bottom: 3em;
+     text-align: center;
+     display: none;
+     
+}
+
+.overlay-text {
+
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  height: 100px;
+  transition: .5s ease;
+  opacity: 0;
+  font-size: 0.8em;
+  color: $ninth-color;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.team-photography-two:hover .overlay-text {
+
+  opacity: 1;
+
+}
+
+.team-photography-three:hover .overlay-text {
+
+  opacity: 1;
+
+}
+
+}
