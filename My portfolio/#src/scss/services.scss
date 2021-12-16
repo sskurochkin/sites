@@ -1,0 +1,41 @@
+@import 'vars';
+
+.services{
+	padding: $paddingSection 0;
+	background-color: #f5f0f4;
+	background-image: url(../img/hero_2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	.subtitle{
+		margin-bottom: 30px;
+	}
+	&__bg{
+		background-color: rgba($color: #ffffff, $alpha: .5);
+	}
+}
+.services__cards{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 25px;
+	margin: 0 auto;
+	max-width: 660px;
+}
+.services__card{
+	max-width: 320px;
+	padding: 20px 8px;
+	border-radius: 8px;
+	background-color: #f6f6f6;
+	box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.4);
+	.services__card__pic{
+		width: 60px;
+		height: 60px;
+		display: block;
+		margin: 0 auto 20px;
+	}
+	.services__card__title{
+		margin: 0 auto 10px;
+		color: $primary;
+	}
+}

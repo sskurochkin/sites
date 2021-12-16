@@ -1,0 +1,97 @@
+@import 'vars';
+.portfolio{
+	padding: $paddingSection 0;
+	background-color: #fdfefe;
+	background-image: url(../img/hero_1-1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	.subtitle{
+		margin-bottom: 30px;
+	}
+	&__bg{
+		background-color: rgba($color: #ffffff, $alpha: .5);
+	}
+	.container{
+		padding: 0 35px;
+	}
+}
+
+.portfolio__cards{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	.card__desc{
+		color: #ffffff;
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		text-align: center;
+		border-radius: 10px;
+		margin: auto auto;
+		padding: 90px 10px 0;
+		transform: scale(0);
+		visibility: hidden;
+		opacity: 0;
+		transition: all linear .3s;
+	}
+	.card__title{
+		margin: 0 auto 50px;
+		display: block;
+	}
+	.card__text{
+		margin-bottom: 25px;
+	}
+	.card__link{
+		display: block;
+		box-sizing: content-box;
+		width: 30px;
+		padding: 10px;
+		margin: 0 auto;
+		background-image: url(../img/to_right.png);
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: 30px 10px;
+	}
+	.card__pic{
+		position: relative;
+		z-index: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: top center;
+	}
+	.portfolio__card{
+		flex: 0 1 22%;
+		overflow: hidden;
+		position: relative;
+		height: 300px;
+		margin: 0 15px 30px;
+		border-radius: 10px;
+		min-width: 280px;
+		cursor: pointer;
+		&:hover .card__desc{
+			background-color: rgba($color: #ff4900, $alpha: .8);
+			visibility: visible;
+			opacity: 1;
+			transform: scale(1);
+		}
+		&:hover .card__pic{
+			transform: scale(1.3);
+			transition: all linear 4s;
+		}
+		// &:first-child{
+		// 	margin-left: 0;
+		// }
+		// &:last-child{
+		// 	margin-right: 0;
+		// }
+		
+	}
+
+	
+}

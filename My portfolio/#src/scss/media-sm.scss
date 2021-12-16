@@ -1,0 +1,88 @@
+@media screen and (max-width: 660px){
+	.contacts{
+		padding: $paddingSection 0;
+	}
+	.contacts__body{
+		flex-wrap: wrap;
+	}
+	.contacts__links, .contacts__form{
+		flex: 0 0 100%;
+		max-width: 480px;
+		margin: 0 auto;
+	}
+	.contacts__form{
+		order: -1;
+		margin-bottom: 40px;
+	}
+	.contacts__links__links{
+		margin-bottom: 35px;
+	}
+}
+@media screen and (max-width: 550px){
+	.title{
+		font-size: 16px;
+	}
+	.subtitle{
+		font-size: 32px;
+	}
+	.intro{
+		&__bg{
+			background: transparent;
+		}
+		.intro__header{
+			padding-top: 25vh;
+		}
+		.intro__title{
+			font-size: 36px;
+			span{
+				font-size: 22px;
+			}
+		}
+		.intro__subtitle{
+			margin-bottom: 50px;
+		}
+		.btn{
+			width: 140px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 12px;
+		}
+		.portfolio-link{
+			// margin-top: 15px;
+			margin-left: 20px;
+		}
+	}
+
+
+
+	.skill__row{
+		flex: auto;
+		flex-direction: column;
+		&:first-child{
+			margin-bottom: 0;
+		}
+	}
+	.skill{
+		margin-bottom: 3px;
+	}
+	.garanty .title, .garanty .subtitle{
+		width: 180px;
+	}
+		.cards__column{
+		flex: 0 0 100%;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	.review .container{
+		padding: 0 15px;
+	}
+	.card__wrapper{
+		padding: 0 40px;
+	}
+	.review__card{
+		padding-bottom: 35px;
+		.card__text{
+			font-size: 12px;
+		}
+	}
+}

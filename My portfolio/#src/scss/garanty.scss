@@ -1,0 +1,68 @@
+@import 'vars';
+.garanty{
+	padding: $paddingSection 0;
+	background-color: #ffffff;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-image: url(../img/garanty.png);
+	&__bg{
+		background-color: rgba($color: #ffffff, $alpha: 0.2);
+	}
+	.title, .subtitle{
+		width: 240px;
+		margin: 0 auto;
+	}
+	.subtitle{
+		margin-bottom: 30px;
+	}
+}
+
+.garanty__cards__wrapper{
+	display: flex;
+	justify-content: center;
+	// margin: 0 -15px;
+}
+.cards__column{
+	flex:0 0 25%;
+	margin: -10px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	.garanty__cards__avatar{
+		border-radius: 10px;
+		margin: 10px 0;
+		max-width: 100%;
+		height: 100%;
+		max-height: 450px;
+		object-fit: contain;
+		object-position: center bottom;
+		box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.2);
+		background-color: #fefefe;
+	}
+	&:nth-child(2){
+		flex: 0 1 300px;
+	}
+}
+.garanty__card{
+	text-align: center;
+	margin: 10px auto;
+	padding: 20px 20px 15px;
+	background-color: #f6f6f6;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.2);
+	&__title{
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 18px;
+		font-weight: 600;
+	}
+	.card__pic{
+		width: 60px;
+		height: 60px;
+		margin-bottom: 20px;
+	}
+	.card__text{
+		line-height: 22px;
+	}
+}

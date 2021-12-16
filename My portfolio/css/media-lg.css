@@ -1,0 +1,5 @@
+@media screen and (max-width: 1200px) {
+  .intro .social-links {
+    max-width: 340px;
+  }
+}

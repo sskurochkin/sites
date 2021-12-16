@@ -1,0 +1,43 @@
+.portfolio {
+  padding: 100px 0;
+  background-color: #f6f6f6;
+}
+.portfolio .subtitle {
+  margin-bottom: 30px;
+}
+
+.portfolio__cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -20px;
+}
+.portfolio__cards .portfolio__card {
+  position: relative;
+  margin: 0 20px;
+}
+.portfolio__cards .card__desc {
+  position: absolute;
+  top: 36%;
+  left: 10px;
+  bottom: 0;
+  right: 10px;
+  text-align: center;
+  margin: auto auto;
+  transform: scale(0);
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+
+.card__pic {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.card__pic:hover {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}

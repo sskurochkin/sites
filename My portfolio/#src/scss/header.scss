@@ -1,0 +1,59 @@
+@import 'vars';
+// Header styles start
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	// background-color: #ffffff;
+	opacity: 0;
+	transform: translate(0px, -100%);
+	// transition: all linear .3s;
+	transition: all .8s ease .8s;
+	.container{
+		height: 80px;
+	}
+	&__burger {
+        display: none;
+    }
+	&__menu{
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: 500;
+		font-size: 18px;
+		// text-transform: uppercase;
+	}
+	
+	
+}
+.menu__link{
+	position: relative;
+	padding: 5px 0 8px;
+	transition: all linear 0.3s;
+	&:after{
+		content: "";
+		position: absolute;
+		display: block;
+		margin: 0 auto;
+		bottom: 0;
+		left: 0;
+		width: 0;
+		height: 2px;
+		background-color: $primary;
+		transition: all linear 0.5s;
+	}
+	&:hover{
+		color: $primary;
+	}
+	&:hover:after{
+		width: 100%;
+	}
+}
+
+
+
+
+// Header styles end

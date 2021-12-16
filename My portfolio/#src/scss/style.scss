@@ -1,0 +1,257 @@
+@import 'reset';
+@import 'vars';
+
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Inter','Raleway', sans-serif;
+	font-size: 15px;
+	background-color: $primary;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.bg-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+}
+.btn{
+	position: relative;
+	background-color: $primary;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 6px;
+	display: block;
+	font-weight: 500;
+	transition: box-shadow linear .1s,
+				background-color linear .3s,
+				top linear .1s,
+				color linear .3s;
+	&:hover{
+		background-color: #ff5a18;
+		color: #ffffff;
+	}
+	&:active{
+		background-color: #da3e00;
+		box-shadow: inset 0 0 6px #000;
+		top: 1px;
+	}
+}
+.title{
+	position: relative;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 50px;
+	line-height: 30px;
+	font-weight: 500;
+	&:after{
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		top: 0;
+		margin: auto 0;
+		display: block;
+		border-radius: 2px;
+		height: 2px;
+		width: 45px;
+		background-color: $primary;
+	}
+}
+.text{
+	font-size: 15px;
+	line-height: 25px;
+}
+.subtitle{
+	font-size: 45px;
+	font-weight: 600;
+	color: $primary;
+}
+.card__title{
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+}
+.card__text{
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+}
+.container{
+	position: relative;
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+	min-width: 0;
+}
+.social-links{
+	display: flex;
+	justify-content: space-between;
+	.link__pic{
+		width: 30px;
+		height: 30px;
+		margin: 5px;
+	}
+}
+.page-full{
+	position: relative;
+	&:after{
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba($color: #000000, $alpha: 0.7);
+		transition: all linear 0.3s;
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+.progress-bar{
+	position: absolute;
+	z-index: 15;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: linear-gradient(to right, #00f9e3, red);
+	clip: rect(0, 0, 4px, 0);
+}
+._blend:after{
+	opacity: 1;
+	visibility: visible;
+}
+._shadow{
+	box-shadow:0 -10px 30px rgba($color: #000000, $alpha: 0.15);
+}
+
+/*Form styles start*/
+.form {
+    padding: 0 20px;
+    margin: 0 0 0 auto;
+}
+
+.form__body:after {
+    content: "";
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(78, 78, 78, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .4s;
+}
+
+.form__body._sending:after {
+    opacity: .7;
+    visibility: visible;
+}
+
+.form__title {
+    font-size: 17px;
+	margin-bottom: 25px;
+	line-height: 24px;
+}
+
+.form .t-red {
+    color: $primary;
+}
+.form__body__item{
+    display: flex;
+    justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 -20px;
+}
+.form__item {
+	padding: 0 20px;
+	margin-bottom: 20px;
+    flex: 1 0 50%;
+    display: flex;
+    flex-direction: column;
+	align-items: flex-start;
+	&:last-child{
+		margin-bottom: 35px;
+	}
+}
+
+.form__label {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.form__input {
+    height: 46px;
+    padding: 0 15px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #c7c7c7;
+    transition: all linear .3s;
+    font-family: inherit;
+    font-style: normal;
+}
+
+.form__input:focus {
+	border: 1px solid $primary;
+    box-shadow: 0 0 5px $primary;
+}
+.form__input::-webkit-input-placeholder {
+    color: #919191;
+}
+
+.form__input:-moz-placeholder {
+    color: #919191;
+}
+
+._error {
+    box-shadow: 0 0 5px red;
+}
+
+textarea.form__input {
+    min-height: 100px;
+    resize: vertical;
+    padding: 10px 15px;
+}
+
+.form__button {
+	// position: absolute;
+	// bottom: 0;
+	// left: 30%;
+    border: none;
+}
+
+
+
+
+@import 'header';
+@import 'intro';
+@import 'about';
+@import 'services';
+@import 'portfolio';
+@import 'garanty';
+@import 'review';
+@import 'contacts';
+@import 'swiper';
+@import 'media-lg';
+@import 'media-md';
+@import 'media-sm';
+
+
+

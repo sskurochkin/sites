@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.intro {
+  position: relative;
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  background-image: url(../img/avatar.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.intro .intro__header {
+  padding-top: 160px;
+}
+.intro .intro__title {
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.intro .intro__title:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 33px;
+  display: block;
+  background-color: #FF4900;
+  width: 30px;
+  height: 20px;
+  transform: rotate(45deg);
+}
+.intro .intro__title:after {
+  content: "Привет! Меня зовут";
+  position: absolute;
+  top: -70px;
+  left: 0;
+  background-color: #FF4900;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.intro .intro__title span {
+  font-size: 30px;
+  font-weight: 500;
+  display: block;
+}
+.intro .intro__subtitle {
+  margin-bottom: 80px;
+}
+.intro .cv-link, .intro .portfolio-link {
+  display: inline-block;
+}
+.intro .portfolio-link {
+  margin-left: 40px;
+}
+.intro .scroll-link {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 35px;
+  height: 65px;
+  background-image: url(/img/arrow-bottom.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
