@@ -9,3 +9,4 @@ my sites
 6. vanna https://vanna-tualet.by/
 7. irbess https://irinabessmertnaya.by/
 8. legalaudit https://legalaudit.by/
+9. roll https://solncanet.by
