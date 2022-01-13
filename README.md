@@ -1,5 +1,4 @@
-# sites
-my sites
+# freelance projects I have done
 
 1. ak-design https://ak-design.by/
 2. a-studio https://a-studio.by/
